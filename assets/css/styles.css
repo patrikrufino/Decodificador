@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/** GERAL */
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+:root {
+
+    /** COLORS */
+    --bg-color: #f4f3fc;
+    --primary-color: #0A3871;
+    --primary-hover-color: #072B61;
+    --hover-outline-color: ##EFF1FA;
+    --text-white: #fff;
+    --text-dark: #343A40;
+
+    /** FONTS */
+    font-size: 62.5%;
+
+    /** NAVBAR */
+    --navbar-height: 9.6rem;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+.content {
+    width: 100%;
+    padding-inline: 1.6rem;
+}
+
+
+/** NAVBAR */
+.navbar {
+
+    height: var(--navbar-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 1.6rem;
+    padding-block: 2.4rem;
+    margin-bottom: 5.6rem;
+}
+
+.navbar-brand {
+    height: 4.8rem;
+}
+
+.btn-primary {
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: var(--text-white);
+    border: none;
+    font-weight: 400;
+    border-radius: 2.4rem;
+    padding: 2.4rem;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    text-align: center;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-hover-color);
+    color: var(--text-btn-color);
+}
+
+.btn-outline-primary {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    padding: 2.4rem;
+    border-radius: 2.4rem;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    text-align: center;
+    background-color: transparent;
+
+}
+
+.btn-outline-primary:hover {
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    text-align: center;
+    background-color: var(--hover-outline-color);
+}
+
+.card {
+    border-radius: 2.4rem;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.1);
+    padding: 2.4rem;
+    margin-bottom: 2.4rem;
+    background-color: var(--text-white);
+}
+
+h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.2rem;
+    margin-bottom: 2.4rem;
+    color: var(--text-dark);
+}
+
+.aviso {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    color: var(--text-dark);
+}
+
+p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    color: var(--text-dark);
+}
+
+textarea {
+    background-color: transparent;
+    color: var(--text-dark);
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 3.2rem;
+    text-align: start;
+    height: 23.5rem;
+    margin-bottom: 1.6rem;
+
+}
+
+.textoEntrada::placeholder {
+    color: var(--primary-color);
+    font-weight: 400;
+    font-size: 3.2rem;
+    line-height: 150%;
+}
+
+.data-input {
+    margin-bottom: 1.6rem;
+}
+
+.data-input p {
+    text-align: start;
+}
+
+.btn-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6.4rem;
+}
+
+.mb {
+    margin-bottom: 1.6rem;
+}
+
+.mb-2 {
+    margin-bottom: 2.4rem;
+}
+
+footer {
+    background-color: var(--primary-color);
+    padding-inline: 1.6rem;
+    padding-block: 2.4rem;
+    margin-top: 5.6rem;
+}
+
+footer p {
+    color: var(--text-white);
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+}
+
+footer a {
+    color: pink;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+}
