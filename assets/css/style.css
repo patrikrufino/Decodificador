@@ -1,0 +1,196 @@
+
+body {
+    /* alinha todos os elemento no centro vertical da tela */
+    background-color: #f5f4f7;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+/* GERAL */
+li {
+    list-style: none;
+}
+
+li a:hover {
+    color: white;
+    transition: 0.5s;
+    filter: brightness( 150% );
+}
+
+.m-y-1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.m-y-2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.m-x-1 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.m-x-2 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+/* NAVBAR */
+nav {
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+
+    display: flex;
+    justify-content: space-between;
+
+    padding-inline: 1rem;
+
+    border-radius: 10px;
+
+    width: 99vw;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+nav .logo:hover {
+    cursor: pointer;
+}
+
+nav .logo h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: darkblue;
+}
+
+nav img {
+    width: 48px;
+    margin-right: 1rem;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li a:hover {
+    color: white;
+    transition: 0.5s;
+    filter: brightness( 150% );
+}
+
+/* CONTENT */
+
+.content {
+    width: 99vw;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+}
+
+.content .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-img img{
+    width: 100%;
+}
+
+.content .container a {
+    margin-top: 100px
+}
+
+/* TOOL */
+
+.tool {
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+
+    padding: 1rem;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.messages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+textarea {
+    width: 100%;
+    height: 360px;
+    padding: 1rem;
+    resize: none;
+    border-radius: 6px;
+}
+
+textarea:focus {
+    /* borda fica azul quando o textarea estiver selecionado */
+    outline: none;
+    border: 1px solid #007bff;
+}
+
+textarea::placeholder {
+    color: #d0d1d0;
+    font-size: 17px;
+    font-family: -apple-system, "Inter", sans-serif;
+}
+
+.message-box {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    
+}
+
+
+.message-box h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: darkgray;
+}
+
+.message-box h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: darkgray;
+}
+
+.message-box-div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
